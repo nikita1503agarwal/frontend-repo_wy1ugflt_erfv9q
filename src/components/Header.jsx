@@ -12,9 +12,9 @@ export default function Header({ q, setQ, active, setActive }) {
     <header className="bg-gradient-to-br from-amber-100 via-orange-100 to-rose-100 border-b border-orange-200/50">
       <div className="max-w-6xl mx-auto px-4 py-6">
         <div className="flex items-center gap-3 mb-4">
-          <div className="h-10 w-10 rounded-lg bg-amber-600 text-white flex items-center justify-center font-bold shadow-sm">AC</div>
+          <div className="h-10 w-10 rounded-lg bg-amber-600 text-white flex items-center justify-center font-bold shadow-sm">ELC</div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-amber-900">Akuapem Connect</h1>
+            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-amber-900">East Link Connect</h1>
             <p className="text-amber-800/70 text-sm">Discover products, culture, and opportunities across the Eastern Region</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function Header({ q, setQ, active, setActive }) {
             />
           </div>
           <a
-            href="https://maps.google.com?q=Akuapem%2C%20Ghana"
+            href="https://maps.google.com?q=Eastern%20Region%2C%20Ghana"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-amber-700 text-white font-semibold hover:bg-amber-800 transition"
